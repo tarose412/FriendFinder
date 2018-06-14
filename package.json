@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "An app to find nearby users that you are compatible with",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarose412/FriendFinder.git"
+  },
+  "author": "Tony Rosenow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarose412/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/tarose412/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
