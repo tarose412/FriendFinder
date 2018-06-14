@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 // ROUTER
 
 // The routes below tell the server how to respond when the user requests data from certain URLs
-require('./app/routes/apiRoutes')(app);
-require('./app/routes/htmlRoutes')(app);
+require('./app/routing/apiRoutes')(app);
+require('./app/routing/htmlRoutes')(app);
 
 // LISTENER
 app.listen(PORT, function () {
